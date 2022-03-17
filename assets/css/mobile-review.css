@@ -1,0 +1,94 @@
+.mobile-image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% -10%;
+}
+
+.mobile-text {
+  padding-right: 350px;
+  padding-left: 350px;
+  padding-top: 40px;
+}
+
+.m-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.m-sub {
+  font-size: 16x;
+  line-height: 28px;
+}
+
+.text-image {
+  height: 500px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.specs {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+tr td {
+  padding: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.images-collage {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*# sourceMappingURL=mobile-review.css.map */
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 850px)  {
+  
+  .mobile-text {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+
+  .mobile-image {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    object-position: 0% 60%;
+  }
+
+  .text-image {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  
+.images-collage {
+  margin-top: 60px;
+}
+}

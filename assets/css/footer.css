@@ -1,0 +1,93 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.blank {
+  height: 35px;
+  background-color: #263238;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-section {
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+}
+
+.footer-section .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-section .column {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 50px;
+}
+
+.footer-section .footer-img {
+width: 100%;
+height: 270px;
+object-fit: contain;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #263238;
+}
+
+.footer-section .field-form {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-section .field-form .text-box {
+  border-radius: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 60%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.footer-button {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.footer-button:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 60%;
+  border: none;
+  background: #ff725e;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=footer.css.map */
